@@ -124,7 +124,7 @@ if (keyPressed == '67'){
 
 
 }
-function Up(){
+function up(){
    if (player_y>=0) {
        player_y = player_y - block_image_height;
     console.log(block_image_height);
